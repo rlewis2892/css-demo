@@ -1,0 +1,32 @@
+@media only screen and (min-width: 768px) {
+	/* basic css selectors */
+	#bottom-text {
+		color: blueviolet;
+		background-color: yellow;
+		padding: 10px;
+		border: 3px solid red;
+	}
+
+	.lead-in {
+		color: green;
+		border: 3px solid pink;
+	}
+
+	p {
+		color: red;
+	}
+
+	/* font sizing */
+	html,
+	body {
+		font-size: 16px;
+	}
+
+	.font-sizing {
+		font-size: 1.3rem;
+	}
+
+	.font-sizing p {
+		font-size: 1.3em;
+	}
+}
